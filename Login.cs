@@ -16,5 +16,15 @@ namespace Car_Rental_System
         {
             InitializeComponent();
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gunaAdvenceButton1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
