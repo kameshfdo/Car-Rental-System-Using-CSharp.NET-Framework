@@ -1,6 +1,6 @@
 ﻿namespace Car_Rental_System
 {
-    partial class MainForm
+    partial class Dashboard
     {
         /// <summary>
         /// Required designer variable.
@@ -28,26 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.gunaTransfarantPictureBox3 = new Guna.UI.WinForms.GunaTransfarantPictureBox();
+            this.gunaTransfarantPictureBox1 = new Guna.UI.WinForms.GunaTransfarantPictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.gunaAdvenceButton1 = new Guna.UI.WinForms.GunaAdvenceButton();
             this.gunaAdvenceButton2 = new Guna.UI.WinForms.GunaAdvenceButton();
             this.gunaAdvenceButton3 = new Guna.UI.WinForms.GunaAdvenceButton();
             this.gunaAdvenceButton4 = new Guna.UI.WinForms.GunaAdvenceButton();
             this.gunaAdvenceButton5 = new Guna.UI.WinForms.GunaAdvenceButton();
-            this.label6 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.gunaAdvenceButton6 = new Guna.UI.WinForms.GunaAdvenceButton();
-            this.gunaTransfarantPictureBox1 = new Guna.UI.WinForms.GunaTransfarantPictureBox();
             this.gunaTransfarantPictureBox2 = new Guna.UI.WinForms.GunaTransfarantPictureBox();
-            this.gunaTransfarantPictureBox3 = new Guna.UI.WinForms.GunaTransfarantPictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gunaTransfarantPictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gunaTransfarantPictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gunaTransfarantPictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gunaTransfarantPictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gunaTransfarantPictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -63,6 +63,52 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1013, 82);
             this.panel1.TabIndex = 0;
+            // 
+            // gunaTransfarantPictureBox3
+            // 
+            this.gunaTransfarantPictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.gunaTransfarantPictureBox3.BaseColor = System.Drawing.Color.Black;
+            this.gunaTransfarantPictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("gunaTransfarantPictureBox3.Image")));
+            this.gunaTransfarantPictureBox3.Location = new System.Drawing.Point(978, 3);
+            this.gunaTransfarantPictureBox3.Name = "gunaTransfarantPictureBox3";
+            this.gunaTransfarantPictureBox3.Size = new System.Drawing.Size(32, 31);
+            this.gunaTransfarantPictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.gunaTransfarantPictureBox3.TabIndex = 20;
+            this.gunaTransfarantPictureBox3.TabStop = false;
+            this.gunaTransfarantPictureBox3.Click += new System.EventHandler(this.gunaTransfarantPictureBox3_Click);
+            // 
+            // gunaTransfarantPictureBox1
+            // 
+            this.gunaTransfarantPictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.gunaTransfarantPictureBox1.BaseColor = System.Drawing.Color.Black;
+            this.gunaTransfarantPictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("gunaTransfarantPictureBox1.Image")));
+            this.gunaTransfarantPictureBox1.Location = new System.Drawing.Point(743, 39);
+            this.gunaTransfarantPictureBox1.Name = "gunaTransfarantPictureBox1";
+            this.gunaTransfarantPictureBox1.Size = new System.Drawing.Size(53, 31);
+            this.gunaTransfarantPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.gunaTransfarantPictureBox1.TabIndex = 20;
+            this.gunaTransfarantPictureBox1.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(22, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(86, 58);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 19;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("MV Boli", 18F, System.Drawing.FontStyle.Bold);
+            this.label6.ForeColor = System.Drawing.Color.LightYellow;
+            this.label6.Location = new System.Drawing.Point(114, 39);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(203, 31);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "Car Retal Spot";
             // 
             // label8
             // 
@@ -112,6 +158,7 @@
             this.gunaAdvenceButton1.TabIndex = 17;
             this.gunaAdvenceButton1.Text = "CAR";
             this.gunaAdvenceButton1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaAdvenceButton1.Click += new System.EventHandler(this.gunaAdvenceButton1_Click);
             // 
             // gunaAdvenceButton2
             // 
@@ -148,6 +195,7 @@
             this.gunaAdvenceButton2.TabIndex = 18;
             this.gunaAdvenceButton2.Text = "CUSTOMER";
             this.gunaAdvenceButton2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaAdvenceButton2.Click += new System.EventHandler(this.gunaAdvenceButton2_Click);
             // 
             // gunaAdvenceButton3
             // 
@@ -184,6 +232,7 @@
             this.gunaAdvenceButton3.TabIndex = 18;
             this.gunaAdvenceButton3.Text = "RENTAL";
             this.gunaAdvenceButton3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaAdvenceButton3.Click += new System.EventHandler(this.gunaAdvenceButton3_Click);
             // 
             // gunaAdvenceButton4
             // 
@@ -220,6 +269,7 @@
             this.gunaAdvenceButton4.TabIndex = 18;
             this.gunaAdvenceButton4.Text = "RETURN";
             this.gunaAdvenceButton4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaAdvenceButton4.Click += new System.EventHandler(this.gunaAdvenceButton4_Click);
             // 
             // gunaAdvenceButton5
             // 
@@ -256,27 +306,7 @@
             this.gunaAdvenceButton5.TabIndex = 18;
             this.gunaAdvenceButton5.Text = "USERS";
             this.gunaAdvenceButton5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("MV Boli", 18F, System.Drawing.FontStyle.Bold);
-            this.label6.ForeColor = System.Drawing.Color.LightYellow;
-            this.label6.Location = new System.Drawing.Point(114, 39);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(203, 31);
-            this.label6.TabIndex = 11;
-            this.label6.Text = "Car Retal Spot";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(22, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(86, 58);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 19;
-            this.pictureBox1.TabStop = false;
+            this.gunaAdvenceButton5.Click += new System.EventHandler(this.gunaAdvenceButton5_Click);
             // 
             // panel2
             // 
@@ -324,18 +354,6 @@
             this.gunaAdvenceButton6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaAdvenceButton6.Click += new System.EventHandler(this.gunaAdvenceButton6_Click);
             // 
-            // gunaTransfarantPictureBox1
-            // 
-            this.gunaTransfarantPictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.gunaTransfarantPictureBox1.BaseColor = System.Drawing.Color.Black;
-            this.gunaTransfarantPictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("gunaTransfarantPictureBox1.Image")));
-            this.gunaTransfarantPictureBox1.Location = new System.Drawing.Point(743, 39);
-            this.gunaTransfarantPictureBox1.Name = "gunaTransfarantPictureBox1";
-            this.gunaTransfarantPictureBox1.Size = new System.Drawing.Size(53, 31);
-            this.gunaTransfarantPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.gunaTransfarantPictureBox1.TabIndex = 20;
-            this.gunaTransfarantPictureBox1.TabStop = false;
-            // 
             // gunaTransfarantPictureBox2
             // 
             this.gunaTransfarantPictureBox2.BackColor = System.Drawing.Color.Transparent;
@@ -348,20 +366,7 @@
             this.gunaTransfarantPictureBox2.TabIndex = 20;
             this.gunaTransfarantPictureBox2.TabStop = false;
             // 
-            // gunaTransfarantPictureBox3
-            // 
-            this.gunaTransfarantPictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.gunaTransfarantPictureBox3.BaseColor = System.Drawing.Color.Black;
-            this.gunaTransfarantPictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("gunaTransfarantPictureBox3.Image")));
-            this.gunaTransfarantPictureBox3.Location = new System.Drawing.Point(978, 3);
-            this.gunaTransfarantPictureBox3.Name = "gunaTransfarantPictureBox3";
-            this.gunaTransfarantPictureBox3.Size = new System.Drawing.Size(32, 31);
-            this.gunaTransfarantPictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.gunaTransfarantPictureBox3.TabIndex = 20;
-            this.gunaTransfarantPictureBox3.TabStop = false;
-            this.gunaTransfarantPictureBox3.Click += new System.EventHandler(this.gunaTransfarantPictureBox3_Click);
-            // 
-            // MainForm
+            // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -377,15 +382,15 @@
             this.Controls.Add(this.gunaAdvenceButton1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "MainForm";
+            this.Name = "Dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MainForm";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gunaTransfarantPictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gunaTransfarantPictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gunaTransfarantPictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gunaTransfarantPictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gunaTransfarantPictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }

@@ -174,21 +174,22 @@
             // 
             // pwTxt
             // 
-            this.pwTxt.BackColor = System.Drawing.Color.White;
+            this.pwTxt.BackColor = System.Drawing.Color.LightYellow;
             this.pwTxt.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.pwTxt.FocusedLineColor = System.Drawing.Color.Lime;
             this.pwTxt.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pwTxt.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
             this.pwTxt.Location = new System.Drawing.Point(167, 312);
             this.pwTxt.Name = "pwTxt";
-            this.pwTxt.PasswordChar = '\0';
+            this.pwTxt.PasswordChar = '●';
             this.pwTxt.SelectedText = "";
             this.pwTxt.Size = new System.Drawing.Size(188, 32);
             this.pwTxt.TabIndex = 18;
+            this.pwTxt.UseSystemPasswordChar = true;
             // 
             // userTxt
             // 
-            this.userTxt.BackColor = System.Drawing.Color.White;
+            this.userTxt.BackColor = System.Drawing.Color.LightYellow;
             this.userTxt.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.userTxt.FocusedLineColor = System.Drawing.Color.Lime;
             this.userTxt.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -269,6 +270,7 @@
             this.label7.Size = new System.Drawing.Size(59, 34);
             this.label7.TabIndex = 14;
             this.label7.Text = "Clear";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label2
             // 
