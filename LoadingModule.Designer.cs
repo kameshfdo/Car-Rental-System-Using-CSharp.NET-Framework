@@ -104,7 +104,7 @@
             // 
             this.myprogress12.BaseColor = System.Drawing.Color.White;
             this.myprogress12.Image = ((System.Drawing.Image)(resources.GetObject("myprogress12.Image")));
-            this.myprogress12.Location = new System.Drawing.Point(78, 53);
+            this.myprogress12.Location = new System.Drawing.Point(78, 63);
             this.myprogress12.Name = "myprogress12";
             this.myprogress12.Size = new System.Drawing.Size(503, 181);
             this.myprogress12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
