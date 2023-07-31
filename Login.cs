@@ -56,5 +56,10 @@ namespace Car_Rental_System
             userTxt.Text = string.Empty;
             pwTxt.Text = string.Empty;
         }
+
+        private void gunaTransfarantPictureBox3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

@@ -20,7 +20,9 @@ namespace Car_Rental_System
 
         private void label8_Click(object sender, EventArgs e)
         {
-
+            Records records = new Records();
+            records.Show();
+            this.Hide();
         }
 
         private void gunaTransfarantPictureBox1_Click(object sender, EventArgs e)
@@ -30,7 +32,9 @@ namespace Car_Rental_System
 
         private void gunaAdvenceButton6_Click(object sender, EventArgs e)
         {
-
+            Login login = new Login();
+            login.Show();
+            this.Hide();
         }
 
         private void gunaTransfarantPictureBox3_Click(object sender, EventArgs e)
