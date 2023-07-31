@@ -47,6 +47,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.gunaTransfarantPictureBox3 = new Guna.UI.WinForms.GunaTransfarantPictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -54,6 +55,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gunaTransfarantPictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -159,6 +161,7 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.gunaTransfarantPictureBox3);
             this.panel2.Controls.Add(this.pwTxt);
             this.panel2.Controls.Add(this.userTxt);
             this.panel2.Controls.Add(this.gunaAdvenceButton1);
@@ -174,21 +177,22 @@
             // 
             // pwTxt
             // 
-            this.pwTxt.BackColor = System.Drawing.Color.White;
+            this.pwTxt.BackColor = System.Drawing.Color.LightYellow;
             this.pwTxt.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.pwTxt.FocusedLineColor = System.Drawing.Color.Lime;
             this.pwTxt.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pwTxt.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
             this.pwTxt.Location = new System.Drawing.Point(167, 312);
             this.pwTxt.Name = "pwTxt";
-            this.pwTxt.PasswordChar = '\0';
+            this.pwTxt.PasswordChar = '●';
             this.pwTxt.SelectedText = "";
             this.pwTxt.Size = new System.Drawing.Size(188, 32);
             this.pwTxt.TabIndex = 18;
+            this.pwTxt.UseSystemPasswordChar = true;
             // 
             // userTxt
             // 
-            this.userTxt.BackColor = System.Drawing.Color.White;
+            this.userTxt.BackColor = System.Drawing.Color.LightYellow;
             this.userTxt.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.userTxt.FocusedLineColor = System.Drawing.Color.Lime;
             this.userTxt.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -269,6 +273,7 @@
             this.label7.Size = new System.Drawing.Size(59, 34);
             this.label7.TabIndex = 14;
             this.label7.Text = "Clear";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label2
             // 
@@ -292,6 +297,19 @@
             this.label1.TabIndex = 10;
             this.label1.Text = "User Name";
             // 
+            // gunaTransfarantPictureBox3
+            // 
+            this.gunaTransfarantPictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.gunaTransfarantPictureBox3.BaseColor = System.Drawing.Color.Black;
+            this.gunaTransfarantPictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("gunaTransfarantPictureBox3.Image")));
+            this.gunaTransfarantPictureBox3.Location = new System.Drawing.Point(378, 12);
+            this.gunaTransfarantPictureBox3.Name = "gunaTransfarantPictureBox3";
+            this.gunaTransfarantPictureBox3.Size = new System.Drawing.Size(32, 31);
+            this.gunaTransfarantPictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.gunaTransfarantPictureBox3.TabIndex = 21;
+            this.gunaTransfarantPictureBox3.TabStop = false;
+            this.gunaTransfarantPictureBox3.Click += new System.EventHandler(this.gunaTransfarantPictureBox3_Click);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -313,6 +331,7 @@
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gunaTransfarantPictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -336,5 +355,6 @@
         private System.Windows.Forms.Label label8;
         private Guna.UI.WinForms.GunaLineTextBox userTxt;
         private Guna.UI.WinForms.GunaLineTextBox pwTxt;
+        private Guna.UI.WinForms.GunaTransfarantPictureBox gunaTransfarantPictureBox3;
     }
 }
